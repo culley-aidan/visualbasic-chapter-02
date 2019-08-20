@@ -22,4 +22,8 @@
     Private Sub BtnMocha_Click(sender As Object, e As EventArgs) Handles btnMocha.Click
 
     End Sub
+
+    Private Sub BtnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        End
+    End Sub
 End Class
