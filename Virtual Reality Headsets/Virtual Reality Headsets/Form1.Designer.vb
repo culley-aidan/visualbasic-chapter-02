@@ -23,13 +23,13 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lblName = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.picCrown = New System.Windows.Forms.PictureBox()
+        Me.picEarBud = New System.Windows.Forms.PictureBox()
         Me.btnCrown = New System.Windows.Forms.Button()
         Me.btnEarBud = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picCrown, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picEarBud, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblName
@@ -42,21 +42,21 @@ Partial Class Form1
         Me.lblName.TabIndex = 0
         Me.lblName.Text = "VR Forward"
         '
-        'PictureBox1
+        'picCrown
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(58, 87)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(282, 216)
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+        Me.picCrown.Location = New System.Drawing.Point(58, 87)
+        Me.picCrown.Name = "picCrown"
+        Me.picCrown.Size = New System.Drawing.Size(282, 216)
+        Me.picCrown.TabIndex = 1
+        Me.picCrown.TabStop = False
         '
-        'PictureBox2
+        'picEarBud
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(460, 87)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(282, 216)
-        Me.PictureBox2.TabIndex = 2
-        Me.PictureBox2.TabStop = False
+        Me.picEarBud.Location = New System.Drawing.Point(460, 87)
+        Me.picEarBud.Name = "picEarBud"
+        Me.picEarBud.Size = New System.Drawing.Size(282, 216)
+        Me.picEarBud.TabIndex = 2
+        Me.picEarBud.TabStop = False
         '
         'btnCrown
         '
@@ -93,21 +93,21 @@ Partial Class Form1
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnEarBud)
         Me.Controls.Add(Me.btnCrown)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.picEarBud)
+        Me.Controls.Add(Me.picCrown)
         Me.Controls.Add(Me.lblName)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picCrown, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picEarBud, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents lblName As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents picCrown As PictureBox
+    Friend WithEvents picEarBud As PictureBox
     Friend WithEvents btnCrown As Button
     Friend WithEvents btnEarBud As Button
     Friend WithEvents btnExit As Button
