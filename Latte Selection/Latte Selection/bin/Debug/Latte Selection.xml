@@ -22,5 +22,20 @@ Latte Selection
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Latte_Selection.My.Resources.Resources.mocha">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Latte_Selection.My.Resources.Resources.pumpkin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Latte_Selection.My.Resources.Resources.pumpkin1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
