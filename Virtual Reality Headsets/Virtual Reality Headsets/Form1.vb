@@ -1,19 +1,31 @@
-﻿Public Class Form1
+﻿' Program Name: VR Forward
+' Developer:    Aidan Culley
+' Date:         August 22, 2019
+' Purpose:      Displays an order screen for two types of virtual reality headsets
 
-    Private Sub BtnCrown_MouseClick(sender As Object, e As MouseEventArgs) Handles btnCrown.MouseClick
-        btnExit.Visible = True
+Public Class frmVRForward
+    Private Sub BtnCrown_Click(sender As Object, e As EventArgs) Handles btnCrown.Click
+        ' Executes when btnCrown is clicked
+        ' Displays crown picture, hides Earbud picture and enables the exit button
+
+        picCrown.Visible = True
+        picEarBud.Visible = False
+        btnExit.Enabled = True
     End Sub
 
     Private Sub BtnEarBud_Click(sender As Object, e As EventArgs) Handles btnEarBud.Click
-        btnExit.Visible = True
-    End Sub
+        ' Executes when btnEarBud is clicked
+        ' Displays earbud picture, hides crown picture and enables the exit button
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        btnExit.Visible = False
+        picCrown.Visible = False
+        picEarBud.Visible = True
+        btnExit.Enabled = True
     End Sub
 
     Private Sub BtnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        End
-    End Sub
+        ' Executes when btnExit is clicked
+        ' Exits the program
 
+        Close()
+    End Sub
 End Class

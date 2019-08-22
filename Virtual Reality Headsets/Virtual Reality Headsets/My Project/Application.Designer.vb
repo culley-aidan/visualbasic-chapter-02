@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Virtual_Reality_Headsets.Form1
+            Me.MainForm = Global.Virtual_Reality_Headsets.frmVRForward
         End Sub
     End Class
 End Namespace

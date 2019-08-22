@@ -22,5 +22,15 @@ Virtual Reality Headsets
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Virtual_Reality_Headsets.My.Resources.Resources.crown">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Reality_Headsets.My.Resources.Resources.earbud">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
