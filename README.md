@@ -1,2 +1,2 @@
-# visualbasic-chapter-02
-Visual Basic Programming Chapter 2
+# visualbasic-chapter-03
+Visual Basic Programming Chapter 3
