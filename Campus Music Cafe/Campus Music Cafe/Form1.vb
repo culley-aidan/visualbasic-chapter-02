@@ -1,3 +1,5 @@
-﻿Public Class Form1
+﻿
+
+Public Class frmCampusMusicCafe
 
 End Class
